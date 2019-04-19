@@ -10,7 +10,8 @@
     "pretest": "npm run lint",
     "test": "mocha __tests__/**/*.test.js --exit",
     "test:watch": "npm run test --watch",
-    "coverage": "nyc npm test"
+    "test:coverage": "nyc npm test",
+    "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls"
   },
   "nyc": {
     "reporter": [
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.17.2",

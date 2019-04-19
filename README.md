@@ -3,6 +3,7 @@
 SDK para Braspag / Cielo em Node.JS
 
 [![Build Status](https://travis-ci.org/italoiz/braspag-sdk-nodejs.svg?branch=master)](https://travis-ci.org/italoiz/braspag-sdk-nodejs)
+[![Coverage Status](https://coveralls.io/repos/github/italoiz/braspag-sdk-nodejs/badge.svg?branch=master)](https://coveralls.io/github/italoiz/braspag-sdk-nodejs?branch=master)
 
 > :warning: Este AINDA é um trabalho em progesso... Ainda não está pronto para uso, mas se deseja contribuir, siga para seção "[Contribuindo](#contribuindo)".
 
