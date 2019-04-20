@@ -2,9 +2,10 @@
 
 SDK para Braspag / Cielo em Node.JS
 
-[![Build Status](https://travis-ci.org/italoiz/braspag-sdk-nodejs.svg?branch=master)](https://travis-ci.org/italoiz/braspag-sdk-nodejs)
-[![Coverage Status](https://coveralls.io/repos/github/italoiz/braspag-sdk-nodejs/badge.svg?branch=master)](https://coveralls.io/github/italoiz/braspag-sdk-nodejs?branch=master)
-![NPM](https://img.shields.io/npm/l/braspag-sdk-nodejs.svg)
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coverage-image]][coverage-url]
+[![Licence Type][licence-image]][licence-url]
 
 > :warning: Este AINDA é um trabalho em progesso... Ainda não está pronto para uso, mas se deseja contribuir, siga para seção "[Contribuindo](#contribuindo)".
 
@@ -49,3 +50,15 @@ Prefira sempre usar os recursos mais recentes do ES6, por exemplo:
 
 1. Sempre tente criar testes unitários quando encontrar um problema (se possível).
 2. Compartilhe algum contexto sobre o que você está tentando fazer, com código suficiente para reproduzir o problema.
+
+[npm-image]: https://img.shields.io/npm/v/braspag-sdk-nodejs.svg
+[npm-url]: https://www.npmjs.com/package/braspag-sdk-nodejs
+
+[licence-url]: https://github.com/italoiz/braspag-sdk-nodejs/blob/develop/LICENSE
+[licence-image]: https://img.shields.io/npm/l/braspag-sdk-nodejs.svg
+
+[travis-url]: https://travis-ci.org/italoiz/braspag-sdk-nodejs
+[travis-image]: https://travis-ci.org/italoiz/braspag-sdk-nodejs.svg?branch=master
+
+[coverage-url]: https://coveralls.io/github/italoiz/braspag-sdk-nodejs?branch=master
+[coverage-image]: https://coveralls.io/repos/github/italoiz/braspag-sdk-nodejs/badge.svg?branch=master
