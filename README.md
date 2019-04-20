@@ -13,12 +13,12 @@ SDK para Braspag / Cielo em Node.JS
 
 Usando NPM
 ```
-npm install braspag-sdk-nodejs
+npm install braspag-sdk
 ```
 
 Usando Yarn
 ```
-yarn add braspag-sdk-nodejs
+yarn add braspag-sdk
 ```
 
 ## Contribuindo
