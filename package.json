@@ -9,7 +9,7 @@
     "lint": "eslint --ext .js ./src/",
     "pretest": "npm run lint",
     "test": "mocha __tests__/**/*.test.js --exit",
-    "test:watch": "npm run test --watch",
+    "test:watch": "npm run test -- --watch",
     "test:coverage": "nyc npm test",
     "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls",
     "commit": "git-cz"
